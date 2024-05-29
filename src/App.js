@@ -6,6 +6,7 @@ import MUIDate from './Components/MUIDate';
 import MUITextField from './Components/MUITextField';
 import MUISelect from './Components/MUISelect';
 import MUITest from './Components/MUITest';
+import MUICounter from './Components/MUICounter';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
 {/* <MUIDate/> */}
 {/* <MUITextField/>/ */}
 {/* <MUISelect/> */}
-<MUITest/>
+{/* <MUITest/> */}
+<MUICounter/>
 
    </>
   );
