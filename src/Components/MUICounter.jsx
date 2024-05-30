@@ -27,6 +27,12 @@ const MUICounter = () => {
           <TableRow>
             <TableCell>Name</TableCell>
             <TableCell>Rooms</TableCell>
+
+
+            <TableCell>Rooms</TableCell>
+            <TableCell>Rooms</TableCell>
+            <TableCell>Rooms</TableCell>
+            
           </TableRow>
         </TableHead>
         <TableBody>
