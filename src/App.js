@@ -7,17 +7,24 @@ import MUITextField from './Components/MUITextField';
 import MUISelect from './Components/MUISelect';
 import MUITest from './Components/MUITest';
 import MUICounter from './Components/MUICounter';
+import MUIForm from './MUIForm';
+import SignUpForm from './SignUpForm';
+import PasswordField from './PasswordField';
 
 function App() {
   return (
    <>
+   
 {/* <MUITypography/> */}
 {/* <MUIButton/> */}
 {/* <MUIDate/> */}
 {/* <MUITextField/>/ */}
 {/* <MUISelect/> */}
 {/* <MUITest/> */}
-<MUICounter/>
+{/* <MUICounter/> */}
+{/* <MUIForm/> */}
+<SignUpForm/>
+{/* <PasswordField/> */}
 
    </>
   );
