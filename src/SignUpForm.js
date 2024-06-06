@@ -26,7 +26,7 @@ const countries = [
   },
   {
       name: 'Oman',
-      code: '+978',
+      code: '+968',
       img: 'https://png.pngtree.com/png-vector/20220427/ourmid/pngtree-oman-flag-icon-png-gold-border-png-image_4557809.png'
   },
   {

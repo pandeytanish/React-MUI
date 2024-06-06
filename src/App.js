@@ -23,8 +23,8 @@ function App() {
 {/* <MUITest/> */}
 {/* <MUICounter/> */}
 {/* <MUIForm/> */}
-<SignUpForm/>
-{/* <PasswordField/> */}
+{/* <SignUpForm/> */}
+<PasswordField/>
 
    </>
   );
