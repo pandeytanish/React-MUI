@@ -10,6 +10,8 @@ import MUICounter from './Components/MUICounter';
 import MUIForm from './MUIForm';
 import SignUpForm from './SignUpForm';
 import PasswordField from './PasswordField';
+import TemplateDesign from './TemplateDesign';
+import DebtBuyerInfo from './DebtBuyerInfo';
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
 {/* <MUICounter/> */}
 {/* <MUIForm/> */}
 {/* <SignUpForm/> */}
-<PasswordField/>
-
+{/* <PasswordField/> */}
+{/* <TemplateDesign/> */}
+<DebtBuyerInfo/>
    </>
   );
 }
