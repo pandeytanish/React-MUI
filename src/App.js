@@ -12,6 +12,8 @@ import SignUpForm from './SignUpForm';
 import PasswordField from './PasswordField';
 import TemplateDesign from './TemplateDesign';
 import DebtBuyerInfo from './DebtBuyerInfo';
+import MedicalDebtPackage from './MedicalDebtPackage';
+import BuyersPortfolio from './BuyersPortfolio';
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
 {/* <SignUpForm/> */}
 {/* <PasswordField/> */}
 {/* <TemplateDesign/> */}
-<DebtBuyerInfo/>
+{/* <DebtBuyerInfo/>  */}
+{/* <MedicalDebtPackage/> */}
+<BuyersPortfolio/>
    </>
   );
 }
