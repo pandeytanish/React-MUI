@@ -26,6 +26,19 @@ function MUISelect() {
         value={countries}
         onChange={handleChange}
       >
+            <TextField
+        margin='normal'
+        label="Select country"
+        select
+        SelectProps={{
+          multiple: true,
+        }}
+        size="small"
+        color="secondary"
+        helperText="Please select your country"
+        value={countries}
+        onChange={handleChange}
+      ></TextField>
         <MenuItem value="IN">India</MenuItem>
         <MenuItem value="US">USA</MenuItem>
         <MenuItem value="AU">Australia</MenuItem>
