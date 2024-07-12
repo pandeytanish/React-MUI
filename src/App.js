@@ -33,8 +33,8 @@ function App() {
 {/* <TemplateDesign/> */}
 {/* <DebtBuyerInfo/>  */}
 {/* <MedicalDebtPackage/> */}
-{/* <BuyersPortfolio/> */}
-<BuyerCard/>
+<BuyersPortfolio/>
+{/* <BuyerCard/> */}
    </>
   );
 }
