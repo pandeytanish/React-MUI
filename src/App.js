@@ -15,6 +15,8 @@ import DebtBuyerInfo from './DebtBuyerInfo';
 import MedicalDebtPackage from './MedicalDebtPackage';
 import BuyersPortfolio from './BuyersPortfolio';
 import BuyerCard from './Components/BuyerCard';
+import MedicalDebt from './MedicalDebt';
+import DetailsSection from './DetailsSection';
 
 function App() {
   return (
@@ -33,8 +35,10 @@ function App() {
 {/* <TemplateDesign/> */}
 {/* <DebtBuyerInfo/>  */}
 {/* <MedicalDebtPackage/> */}
-<BuyersPortfolio/>
+{/* <BuyersPortfolio/> */}
 {/* <BuyerCard/> */}
+{/* <MedicalDebt/> */}
+<DetailsSection/>
    </>
   );
 }
