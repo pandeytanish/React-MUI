@@ -17,6 +17,8 @@ import BuyersPortfolio from './BuyersPortfolio';
 import BuyerCard from './Components/BuyerCard';
 import MedicalDebt from './MedicalDebt';
 import DetailsSection from './DetailsSection';
+import TestMui from './TestMui';
+
 
 function App() {
   return (
@@ -38,7 +40,8 @@ function App() {
 {/* <BuyersPortfolio/> */}
 {/* <BuyerCard/> */}
 {/* <MedicalDebt/> */}
-<DetailsSection/>
+{/* <DetailsSection/> */}
+<TestMui/>
    </>
   );
 }
