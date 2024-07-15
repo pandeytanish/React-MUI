@@ -18,6 +18,8 @@ import BuyerCard from './Components/BuyerCard';
 import MedicalDebt from './MedicalDebt';
 import DetailsSection from './DetailsSection';
 import TestMui from './TestMui';
+import VerificationFirst from './Verification Flow/VerificationFirst';
+import SimpleModal from './SimpleModal';
 
 
 function App() {
@@ -41,7 +43,9 @@ function App() {
 {/* <BuyerCard/> */}
 {/* <MedicalDebt/> */}
 {/* <DetailsSection/> */}
-<TestMui/>
+{/* <TestMui/> */}
+<VerificationFirst/>
+{/* <SimpleModal/> */}
    </>
   );
 }
