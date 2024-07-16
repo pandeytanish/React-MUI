@@ -1,5 +1,7 @@
 
 import './App.css';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
 import MUITypography from './Components/MUITypography';
 import MUIButton from './Components/MUIButton';
 import MUIDate from './Components/MUIDate';
@@ -19,9 +21,16 @@ import MedicalDebt from './MedicalDebt';
 import DetailsSection from './DetailsSection';
 import TestMui from './TestMui';
 import VerificationFirst from './Verification Flow/VerificationFirst';
-import SimpleModal from './SimpleModal';
 
 
+
+const theme = createTheme({
+  palette: {
+    background: {
+      paper: '#ffffff', // Ensure the 'paper' background is defined
+    },
+  },
+});
 function App() {
   return (
    <>
@@ -44,8 +53,10 @@ function App() {
 {/* <MedicalDebt/> */}
 {/* <DetailsSection/> */}
 {/* <TestMui/> */}
-<VerificationFirst/>
-{/* <SimpleModal/> */}
+<ThemeProvider theme={theme}>
+      <CssBaseline />
+     <VerificationFirst/>
+    </ThemeProvider>
    </>
   );
 }
