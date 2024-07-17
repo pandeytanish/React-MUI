@@ -151,6 +151,9 @@ export default class VerificationFirst extends Component {
             <Typography sx={{fontSize : '24px', fontWeight : '700', color : '#0F172A'}}>
               Request New Verification
             </Typography>
+            <Typography sx={{fontSize : '24px', fontWeight : '700', color : '#0F172A'}}>
+              Request New Verification
+            </Typography>
             <Box sx={{display : 'flex', flexDirection : 'column', gap : '24px', padding : '0px 40px 0px 40px'}}>
             <Typography sx={{ fontSize : '14px', fontWeight : '400', color : '#64748B' }}>
               *The verification request is completely anonymous
