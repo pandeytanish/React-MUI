@@ -51,6 +51,9 @@ const DebtBuyerInfo = () => {
               <Typography className={classes.paperTitle} gutterBottom>
                 Type of Debts to Buy
               </Typography>
+              <Typography className={classes.paperTitle} gutterBottom>
+                Type of Debts to Buy
+              </Typography>
               <Typography className={classes.paperText}>
                 Selecting the right type of debts, such as credit card debts, medical bills, or utility bills, is crucial.
               </Typography>
