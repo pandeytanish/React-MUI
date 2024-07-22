@@ -21,6 +21,9 @@ import MedicalDebt from './MedicalDebt';
 import DetailsSection from './DetailsSection';
 import TestMui from './TestMui';
 import VerificationFirst from './Verification Flow/VerificationFirst';
+import VerificationDetails from './Verification Flow/VerificationDetails';
+import VerificationTimeline from './Verification Flow/VerificationTimeline';
+import ProgressBar from './Verification Flow/ProgressBar';
 
 
 
@@ -53,10 +56,13 @@ function App() {
 {/* <MedicalDebt/> */}
 {/* <DetailsSection/> */}
 {/* <TestMui/> */}
-<ThemeProvider theme={theme}>
+{/* <ThemeProvider theme={theme}>
       <CssBaseline />
      <VerificationFirst/>
-    </ThemeProvider>
+    </ThemeProvider> */}
+    {/* <VerificationDetails/> */}
+    {/* <VerificationTimeline/> */}
+    <ProgressBar/>
    </>
   );
 }
