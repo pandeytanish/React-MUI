@@ -24,6 +24,7 @@ import VerificationFirst from './Verification Flow/VerificationFirst';
 import VerificationDetails from './Verification Flow/VerificationDetails';
 import VerificationTimeline from './Verification Flow/VerificationTimeline';
 import ProgressBar from './Verification Flow/ProgressBar';
+import ArticleDetails from './Verification Flow/ArticleDetails';
 
 
 
@@ -62,7 +63,8 @@ function App() {
     </ThemeProvider> */}
     {/* <VerificationDetails/> */}
     {/* <VerificationTimeline/> */}
-    <ProgressBar/>
+    {/* <ProgressBar/> */}
+    <ArticleDetails/>
    </>
   );
 }
