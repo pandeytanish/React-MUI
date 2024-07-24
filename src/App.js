@@ -25,6 +25,8 @@ import VerificationDetails from './Verification Flow/VerificationDetails';
 import VerificationTimeline from './Verification Flow/VerificationTimeline';
 import ProgressBar from './Verification Flow/ProgressBar';
 import ArticleDetails from './Verification Flow/ArticleDetails';
+import BlogSection from './Verification Flow/BlogSection';
+import TabButton from './Verification Flow/TabButtons';
 
 
 
@@ -65,6 +67,8 @@ function App() {
     {/* <VerificationTimeline/> */}
     {/* <ProgressBar/> */}
     <ArticleDetails/>
+    {/* <BlogSection/> */}
+    {/* <TabButton/> */}
    </>
   );
 }
