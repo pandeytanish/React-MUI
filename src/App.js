@@ -66,8 +66,8 @@ function App() {
     {/* <VerificationDetails/> */}
     {/* <VerificationTimeline/> */}
     {/* <ProgressBar/> */}
-    <ArticleDetails/>
-    {/* <BlogSection/> */}
+    {/* <ArticleDetails/> */}
+    <BlogSection/>
     {/* <TabButton/> */}
    </>
   );
