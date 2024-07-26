@@ -44,7 +44,7 @@ const articles = [
     readingTime: '7 min read',
     author: 'Nick Garre',
     role: 'Debt Collection Specialist',
-    image: `${BlogImage}`,
+    // image: `${BlogImage}`,
   },
   {
     title: '5 Strategies for Effective Debt Collection in 2024',
@@ -52,7 +52,7 @@ const articles = [
     readingTime: '7 min read',
     author: 'Nick Garre',
     role: 'Debt Collection Specialist',
-    image: `${BlogImage}`,
+    // image: `${BlogImage}`,
   },
   {
     title: '5 Strategies for Effective Debt Collection in 2024',
