@@ -27,6 +27,7 @@ import ProgressBar from './Verification Flow/ProgressBar';
 import ArticleDetails from './Verification Flow/ArticleDetails';
 import BlogSection from './Verification Flow/BlogSection';
 import TabButton from './Verification Flow/TabButtons';
+import SelectMenu from './Components/SelectMEnu';
 
 
 
@@ -67,8 +68,9 @@ function App() {
     {/* <VerificationTimeline/> */}
     {/* <ProgressBar/> */}
     {/* <ArticleDetails/> */}
-    <BlogSection/>
+    {/* <BlogSection/> */}
     {/* <TabButton/> */}
+    <SelectMenu/>
    </>
   );
 }
