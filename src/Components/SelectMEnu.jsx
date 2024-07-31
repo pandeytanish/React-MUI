@@ -48,6 +48,18 @@ const SelectMenu = () => {
         <MenuItem value={10}>Offer Type 1</MenuItem>
         <MenuItem value={20}>Offer Type 2</MenuItem>
         <MenuItem value={30}>Offer Type 3</MenuItem>
+        <MenuItem value={10}>Offer Type 1</MenuItem>
+        <MenuItem value={20}>Offer Type 2</MenuItem>
+        <MenuItem value={30}>Offer Type 3</MenuItem>
+        <MenuItem value={10}>Offer Type 1</MenuItem>
+        <MenuItem value={20}>Offer Type 2</MenuItem>
+        <MenuItem value={30}>Offer Type 3</MenuItem>
+        <MenuItem value={10}>Offer Type 1</MenuItem>
+        <MenuItem value={20}>Offer Type 2</MenuItem>
+        <MenuItem value={30}>Offer Type 3</MenuItem>
+        <MenuItem value={10}>Offer Type 1</MenuItem>
+        <MenuItem value={20}>Offer Type 2</MenuItem>
+        <MenuItem value={30}>Offer Type 3</MenuItem>
       </Select>
     </StyledFormControl>
   );
