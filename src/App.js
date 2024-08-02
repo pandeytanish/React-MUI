@@ -28,6 +28,7 @@ import BlogSection from './Verification Flow/BlogSection';
 import TabButton from './Verification Flow/TabButtons';
 import SelectMenu from './Components/SelectMEnu';
 import VerificationDuration from './Verification Flow/VerificationDuration';
+import AdminDecision from './AdminDecision';
 
 
 
@@ -71,7 +72,8 @@ function App() {
     {/* <BlogSection/> */}
     {/* <TabButton/> */}
     {/* <SelectMenu/> */}
-    <VerificationDuration/>
+    {/* <VerificationDuration/> */}
+    <AdminDecision/>
    </>
   );
 }
