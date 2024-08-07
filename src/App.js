@@ -29,6 +29,7 @@ import TabButton from './Verification Flow/TabButtons';
 import SelectMenu from './Components/SelectMEnu';
 import VerificationDuration from './Verification Flow/VerificationDuration';
 import AdminDecision from './AdminDecision';
+import UserBuisness from './UserBuisness';
 
 
 
@@ -67,13 +68,13 @@ function App() {
     </ThemeProvider> */}
     {/* <VerificationDetails/> */}
     {/* <VerificationTimeline/> */}
-
     {/* <ArticleDetails/> */}
     {/* <BlogSection/> */}
     {/* <TabButton/> */}
     {/* <SelectMenu/> */}
     {/* <VerificationDuration/> */}
-    <AdminDecision/>
+    {/* <AdminDecision/> */}
+    {/* <UserBuisness/> */}
    </>
   );
 }
