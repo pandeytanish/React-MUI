@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class offersListing extends Component {
-  render() {
-    return (
-      <div>offersListing</div>
-    )
-  }
+function offersListing() {
+  return (
+    <div>offersListing</div>
+  )
 }
+
+export default offersListing
