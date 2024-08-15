@@ -30,6 +30,9 @@ import SelectMenu from './Components/SelectMEnu';
 import VerificationDuration from './Verification Flow/VerificationDuration';
 import AdminDecision from './AdminDecision';
 import UserBuisness from './UserBuisness';
+import ExpandableBox from './Offers';
+import TestExpand from './TestExpand';
+import ProfileCardHover from './ProfileCardHover';
 
 
 
@@ -75,6 +78,9 @@ function App() {
     {/* <VerificationDuration/> */}
     {/* <AdminDecision/> */}
     {/* <UserBuisness/> */}
+ {/* <TestExpand/>
+ <ExpandableBox/> */}
+ <ProfileCardHover/>
    </>
   );
 }
