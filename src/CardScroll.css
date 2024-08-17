@@ -1,0 +1,39 @@
+.horizontal-scroll-wrapper {
+    width: 100px;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: red;
+    border : "2px solid red"
+  }
+  .horizontal-scroll-wrapper > div {
+    width: 100px;
+    height: 100px;
+    color: red;
+    border : 2px solid red
+  }
+  .horizontal-scroll-wrapper {
+    transform: rotate(-90deg);
+    transform-origin: right top;
+    color: red;
+    border : 2px solid red
+
+  }
+  .horizontal-scroll-wrapper > div {
+    transform: rotate(90deg);
+    transform-origin: right top;
+    color: red;
+    border : 2px solid red
+  }
+  .horizontal-scroll-wrapper {
+    transform:rotate(-90deg) translateY(-100px);
+    color: red;
+    border : 2px solid red
+  }
+
+  .squares{
+    height: 600px;
+    width : 100px;
+    border: 2px solid red;
+    margin: 200px;
+  }

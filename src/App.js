@@ -33,6 +33,7 @@ import UserBuisness from './UserBuisness';
 import ExpandableBox from './Offers';
 import TestExpand from './TestExpand';
 import ProfileCardHover from './ProfileCardHover';
+import CardScroll from './CardScroll';
 
 
 
@@ -80,7 +81,8 @@ function App() {
     {/* <UserBuisness/> */}
  {/* <TestExpand/>
  <ExpandableBox/> */}
- <ProfileCardHover/>
+ {/* <ProfileCardHover/> */}
+ <CardScroll/>
    </>
   );
 }
