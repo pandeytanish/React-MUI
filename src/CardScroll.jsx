@@ -30,19 +30,19 @@ const CardScroll = () => {
   Text1
   </StyledTypography>
   <StyledTypography  >
-  Text1
+  Text2
+  </StyledTypography>
+  <StyledTypography  >
+  Text3
+  </StyledTypography>
+  <StyledTypography  >
+  Text4
   </StyledTypography>
   <StyledTypography  >
   Text1
   </StyledTypography>
   <StyledTypography  >
-  Text1
-  </StyledTypography>
-  <StyledTypography  >
-  Text1
-  </StyledTypography>
-  <StyledTypography  >
-  Text1
+  Text5
   </StyledTypography>
   <StyledTypography  >
   Text1
