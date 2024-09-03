@@ -34,6 +34,7 @@ import ExpandableBox from './Offers';
 import TestExpand from './TestExpand';
 import ProfileCardHover from './ProfileCardHover';
 import CardScroll from './CardScroll';
+import BlogProgress from './Verification Flow/BlogProgress';
 
 
 
@@ -82,7 +83,8 @@ function App() {
  {/* <TestExpand/>
  <ExpandableBox/> */}
  {/* <ProfileCardHover/> */}
- <CardScroll/>
+ {/* <CardScroll/> */}
+ <BlogProgress/>
    </>
   );
 }
