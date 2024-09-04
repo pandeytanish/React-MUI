@@ -9,8 +9,6 @@ const BlogProgress = () => {
   const dataRef = useRef(null);
   const paymentRef = useRef(null);
   const trainingRef = useRef(null);
-
-  // Function to scroll to the referenced element
   const scrollToSection = (ref) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -19,7 +17,6 @@ const BlogProgress = () => {
 
   return (
     <Container maxWidth="lg" sx={{ padding: '24px' }}>
-      {/* Table of Contents */}
       <Box sx={{ position: 'fixed', top: '100px', left: '10px', width: '200px' }}>
         <Typography variant="h6">Table of Content</Typography>
         <List>
@@ -108,6 +105,8 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, debitis? Deleniti
         <Typography variant="h4" ref={trainingRef}>Invest in Training and Development</Typography>
         <Typography variant="body1" paragraph>
           Investing in training and development empowers your team with the skills necessary for effective debt collection...
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore quasi iusto, voluptate eius eum id, harum ipsa sapiente magnam reiciendis aperiam nostrum, ducimus necessitatibus? Reiciendis sint fugit quidem corrupti.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore quasi iusto, voluptate eius eum id, harum ipsa sapiente magnam reiciendis aperiam nostrum, ducimus necessitatibus? Reiciendis sint fugit quidem corrupti.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore quasi iusto, voluptate eius eum id, harum ipsa sapiente magnam reiciendis aperiam nostrum, ducimus necessitatibus? Reiciendis sint fugit quidem corrupti.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore quasi iusto, voluptate eius eum id, harum ipsa sapiente magnam reiciendis aperiam nostrum, ducimus necessitatibus? Reiciendis sint fugit quidem corrupti.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore quasi iusto, voluptate eius eum id, harum ipsa sapiente magnam reiciendis aperiam nostrum, ducimus necessitatibus? Reiciendis sint fugit quidem corrupti.
