@@ -4,12 +4,6 @@ export default class Blogs extends Component {
   render() {
     return (
       <div>Blogs</div>
-      <div>Blogs</div>
-
-      <div>Blogs</div>
-
-      <div>Blogs</div>
-      <div>Blogs</div>
 
       
     )
